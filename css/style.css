@@ -26,7 +26,7 @@ body{
     1px 1px 0 #000;
 }
 
-#rate {
+#rate, .links {
   color: olive;
   font-family: Papyrus;
   font-size: 15pt;
