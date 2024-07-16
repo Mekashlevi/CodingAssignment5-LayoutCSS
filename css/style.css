@@ -1,3 +1,9 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
 * {
   box-sizing: border-box;
   background-color: rgb(210, 180, 140); /* Tan */
@@ -87,6 +93,11 @@ ul, ol, fieldset, .caption {
 
 }
 
+col, col-3 menu, #recipe, #mainimage {
+  position: center;
+  text-align: center;
+
+}
 
 /* BEGIN FOOTER */
 
@@ -99,11 +110,4 @@ ul, ol, fieldset, .caption {
   font-size: 0.95em;
 }
 
-.footer-text a {
-
-}
-
-.footer-text span {
-
-}
 
