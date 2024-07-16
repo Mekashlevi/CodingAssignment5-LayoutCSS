@@ -66,6 +66,7 @@ body{
 }
 
 li {
+  display: -moz-popup;
   border: 2pt darkred;
   padding: 10pt;
 }
