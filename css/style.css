@@ -66,9 +66,12 @@ body{
 }
 
 li {
-  display: block;
   border: 2pt darkred;
   padding: 10pt;
+}
+
+.li2 {
+    display: block;
 }
 
 a {
