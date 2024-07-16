@@ -1,3 +1,4 @@
+
 html {
   height: 100%;
   width: 100%;
@@ -18,7 +19,7 @@ body{
   color: darkred;
   text-align: center;
   font-family: Papyrus;
-  font-size: 25pt;
+  font-size: 35pt;
   text-shadow: 
     -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -26,21 +27,25 @@ body{
     1px 1px 0 #000;
 }
 
-#rate, h3.links {
+#rate, h3.menu {
   color: olive;
   font-family: Papyrus;
-  font-size: 15pt;
+  font-size: 20pt;
   text-shadow: 
     -1px -1px 0 #000,  
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+
+h3.menu {
+  text-align: center;
 }
 
 .title {
   color: darkgoldenrod;
   font-family: Papyrus;
-  font-size: 15pt;
+  font-size: 20pt;
   font-style: bold, italic;
   text-shadow: 
     -1px -1px 0 #000,  
@@ -65,15 +70,20 @@ body{
     display: block;  
 }
 
-li {
-  display: -moz-popup;
-  border: 2pt darkred;
-  padding: 10pt;
+#title1 { 
+  text-align: center;
+  font-size: 30pt;
 }
 
-.li2 {
-    display: block;
+li {
+  padding: 4pt;
 }
+
+ul.menu {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 
 a {
   text-decoration: none;
@@ -93,7 +103,9 @@ input::placeholder {
 
 ul, ol, fieldset, .caption {
   font-size: 0.95em;
+  align-items: center;
 }
+
 
 #mainlasagna {
   border-radius: 10%;
@@ -114,5 +126,3 @@ ul, ol, fieldset, .caption {
   bottom: 0;
   font-size: 0.95em;
 }
-
-
