@@ -114,7 +114,9 @@ ul, ol, fieldset, .caption {
 
 }
 
-
+#maincaption {
+  text-align: center;
+}
 
 /* BEGIN FOOTER */
 
