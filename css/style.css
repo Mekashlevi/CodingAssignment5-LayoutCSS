@@ -27,7 +27,7 @@ body{
     1px 1px 0 #000;
 }
 
-#rate, h3.menu {
+#rate, #convert, h3.menu {
   color: olive;
   font-family: Papyrus;
   font-size: 20pt;
@@ -121,7 +121,11 @@ ul, ol, fieldset, .caption {
   margin-top: -10pt;
 }
 
-
+.image {
+    width: 100%;
+    height: auto; /* maintains the aspect ratio */
+    max-width: 500px;
+}
 
 /* BEGIN FOOTER */
 
